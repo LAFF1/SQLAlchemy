@@ -3,7 +3,7 @@ Surfs Up Repository
 
 ### Overview
 
-Create a webpage to display Hawaii weather information from a SQLite database and return a json response, using Python and Flask. There is a main page, and responses both json and error responses are returned on a separate page. 
+Create a webpage to display Hawaii weather information from a SQLite database and return a json response, using Python and Flask. There is a main page, and responses both json and error responses are returned on a separate page.  At the bottom of this README, you can also find additional temperature analysis for the beautiful state of Hawaii.  
 
 ## Home Page 
 
@@ -36,3 +36,22 @@ Temperature observations returns the minimum, average and maximum temperatures f
 Date range inclusive of dates entered:            Response  
 ![image](https://user-images.githubusercontent.com/98897041/169854335-d5a11cd2-b40f-44fe-9166-0542afc1f30f.png)
 ![image](https://user-images.githubusercontent.com/98897041/169854440-6f7734c5-e9d1-4203-93cf-5cab38254152.png)
+
+
+
+## Analysis  
+
+Is there a significant difference in the tempertures between June and December?
+The two hypotheses for this particular two sample t-test are as follows:
+H0: µ1 = µ2 (the two population means are equal)
+HA: µ1 ≠µ2 (the two population means are not equal)
+
+Because the p-value of our test (?????) is greater than alpha = 0.05, we fail to reject the null hypothesis of the test.
+
+![image](https://user-images.githubusercontent.com/98897041/169856331-55969915-66db-40ce-b2e4-a64f5c3e72f9.png)
+
+
+
+
+Credit for photo -- sean-oulashin-KMn4VEeEPR8-unsplash.jpg
+Native photo url "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"
