@@ -27,7 +27,7 @@ Most active station is a hyperlink that returns a json response of all the tempe
 
 ## Temperature Observations  
 
-Temperature observations returns the minimum, average and maximum temperatures for a date. There are two paths the first provides a json response for a year beginning with the date that is entered. The second allows a date range to be selected, and provides a json response for each date in the range. If a date is not entered or is invalid - and error message is returned and the date and/or date range may be corrected and requested again. 
+Temperature observations returns the minimum, average and maximum temperatures for a date or a range of dates. There are two paths, the first provides a json response for a year beginning with the date that is entered. The second allows a date range to be selected and provides a json response for each date in the range. If a date is not entered or is invalid - an error message is returned and the date and/or date range may be corrected and requested again. 
 
 12 month period beginning with date entered:      Response  
 ![image](https://user-images.githubusercontent.com/98897041/169853271-9057aab1-03dc-4415-825b-bc7231b96ffc.png)
