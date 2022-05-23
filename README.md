@@ -72,7 +72,7 @@ We planned this trip for August 1st through August 27th, below are the rain aver
 ![image](https://user-images.githubusercontent.com/98897041/169872238-c22c864b-d6ab-43d2-8a86-a823e2615a2f.png)
 
 ### Daily Normals
-Also using our trip from August 1st through August 27th, we took a look at our daily normal temperatures looking at the minimum, average and maximum temperatures historically for all the years we have in our database. On the left these are shown in a staked graph and on the right they are shown in an unstacked graph. 
+Also using our trip from August 1st through August 27th, we took a look at our daily normal temperatures looking at the minimum, average and maximum temperatures historically for all the years we have in our database. On the left these are shown in a stacked graph and on the right they are shown in an unstacked graph. 
 
 ![image](https://user-images.githubusercontent.com/98897041/169879472-a34a1bcc-c992-4b1c-81ea-4494f2261ead.png)    
 ![image](https://user-images.githubusercontent.com/98897041/169879648-20b9c2a0-f244-4879-837c-0214035e264e.png)
