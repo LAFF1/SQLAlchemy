@@ -52,13 +52,19 @@ Because the p-value of our test (3.864098966773339e-194) is less than alpha = 0.
 
 Turns out the weather in Hawaii always rocks! You should definitely go!
 
-### Trip average temp
+### Trip Average Temp
 Here we selected travel dates for the entire year of 2016 on the left and travel dates for the week on August 1-7.
 The trip average temperature is represented in the chart below. The I line represents the difference between the lowest temperature reading and the highest temperature reading. 
 
 
-![image](https://user-images.githubusercontent.com/98897041/169858965-2f61d7c1-c338-499c-a008-b4e2888801a3.png)Year
-![image](https://user-images.githubusercontent.com/98897041/169858988-cfc07154-9b95-4405-97ea-8e762fa3e57d.png)Aug 1-7
+![image](https://user-images.githubusercontent.com/98897041/169858965-2f61d7c1-c338-499c-a008-b4e2888801a3.png) Year 
+![image](https://user-images.githubusercontent.com/98897041/169858988-cfc07154-9b95-4405-97ea-8e762fa3e57d.png) Aug 1-7
+
+### Exploratory Precipitation Analysis
+Here we take a look at rainfall over the course of a year, in this case Aug 24, 2016 to Aug 23, 2017. The chart shows the daily rainfall for each day in our range.
+
+![image](https://user-images.githubusercontent.com/98897041/169877023-504e7dc6-5e7e-4125-9b4c-7b7735edfce2.png)
+
 
 ### Daily Rainfalls 
 We planned this trip for August 1st through August 27th, below are the rain averages by station. You might get a little wet around station USC00516128, otherwise you can leave your unbrellas at home. 
@@ -68,8 +74,13 @@ We planned this trip for August 1st through August 27th, below are the rain aver
 ### Daily Normals
 Also using our trip from August 1st through August 27th, we took a look at our daily normal temperatures looking at the minimum, average and maximum temperatures historically for all the years we have in our database. On the left these are shown in a staked graph and on the right they are shown in an unstacked graph. 
 
-![image](https://user-images.githubusercontent.com/98897041/169859965-ef19e39b-e290-4088-9c94-8b32d1d5079b.png)S
-![image](https://user-images.githubusercontent.com/98897041/169859986-7866381f-e4f8-4d5a-b035-bea608d527ce.png)U
+![image](https://user-images.githubusercontent.com/98897041/169879472-a34a1bcc-c992-4b1c-81ea-4494f2261ead.png)    
+![image](https://user-images.githubusercontent.com/98897041/169879648-20b9c2a0-f244-4879-837c-0214035e264e.png)
+
+## Temperature vs Frequency 
+For our most active station we took a look at the frequency that each temperature was reported by the most active station in our database. Not surprisingly 76°F was the most reported. TOBS = Temperature observations.
+
+![image](https://user-images.githubusercontent.com/98897041/169877971-850ebb16-1aa5-4bce-96c6-6b4fab815ec7.png)
 
 ## Conclusion
 
@@ -77,7 +88,7 @@ You should really enjoy your Hawaiian vacation, it really doesn't matter when yo
 
 
 ## Resouces 
-Python/Flask/sqlalchemy
-Jupyter Notebook/Python/matplotlib/sqlalchemy/pandas/seaborn/numpy/pandas
+Python/Flask/sqlalchemy  
+Jupyter Notebook/Python/matplotlib/sqlalchemy/pandas/seaborn/numpy/pandas  
 <sub>Credit for photo -- sean-oulashin-KMn4VEeEPR8-unsplash.jpg
 Native photo url "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=873&q=80"<sub>
